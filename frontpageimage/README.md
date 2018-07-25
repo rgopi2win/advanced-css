@@ -1,8 +1,8 @@
 ## Front Page Image Decorator
 
 ### Background Image
-	* `url`
-	* `linear gradient`
+	* url
+	* linear gradient
 	
 ### Clip Path
 		
