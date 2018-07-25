@@ -6,4 +6,4 @@
 	
 ### Clip Path
 	* `polygon`
-	* [](https://bennettfeely.com/clippy/)
+	* [polygon creation link](https://bennettfeely.com/clippy/)
