@@ -5,6 +5,5 @@
 	* `linear gradient`
 	
 ### Clip Path
-	* `polygon`
-	
+		
 	[polygon creation link] (https://bennettfeely.com/clippy/)
