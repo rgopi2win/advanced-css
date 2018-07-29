@@ -25,5 +25,5 @@ CSS Syntax : `{
     }
 }
 
-#### pseudo element
+### pseudo element
     To add a element under parent element which can be invoked on specific action
