@@ -13,7 +13,7 @@ CSS Syntax : `{
 
 #### Define animation 
 
-@keyframes `<animation-name> {
+@keyframes `\<animation-name\> {
 
     0% {
         opacity:
