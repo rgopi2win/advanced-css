@@ -1,0 +1,67 @@
+$color-primary-light: #7ed56f;
+$color-primary-dark: #28b485;
+
+$color-grey-dark: #777;
+$color-grey-light: #f7f7f7;
+
+$grid-width: 114rem;
+$gutter-horizontal: 6rem;
+$gutter-vertical: 8rem;
+
+*,
+*::after,
+*::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+
+html {
+    font-size:62.5%; /*equivalent to font-size:10px, since default is 16px*/
+}
+
+body {
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+    line-height: 1.7;
+    color: $color-grey-dark;
+    padding: 3rem;
+    box-sizing: border-box;
+}
+
+.section-about {
+    background-color: $color-grey-light;
+    background-size: cover;
+    height: 100vh;
+}
+
+.section-heading {
+    font-size:3.5rem;
+    text-transform: uppercase;
+    font-weight: 700;
+    display: inline-block;
+    background-image: linear-gradient(to right, $color-primary-light, $color-primary-dark);
+    -webkit-background-clip: text;
+    color: transparent;
+    transition: all .2s;
+
+    &:hover {
+        transform: skewX(2deg) skewY(2deg) scale(1.1);
+    }
+}
+
+.u-center-text {
+    text-align: center;
+}
+
+.row {
+    max-width: $grid-width;
+    background-color:$color-grey-dark;
+    margin: 0 auto;
+
+    &:not(:last-child){
+        margin-bottom: $gutter-vertical;
+    }
+
+    
+}
