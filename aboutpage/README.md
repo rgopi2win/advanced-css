@@ -1,4 +1,4 @@
-## SASS Using npm
+## About Page
 
 ### npm init
 
@@ -38,3 +38,7 @@
 
 ### Icon website
 	(http://linea.io)
+	
+### HTML special character symbol
+
+	[HTML symbols](https://css-tricks.com/snippets/html/glyphs/)
