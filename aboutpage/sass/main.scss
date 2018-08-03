@@ -1,5 +1,5 @@
-$color-primary-light: #7ed56f;
-$color-primary-dark: #28b485;
+$color-primary-light: rgba(216, 149, 124, 0.8);
+$color-primary-dark: rgba(255, 68, 0, 0.8);
 
 $color-grey-dark: #777;
 $color-grey-light: #f7f7f7;
@@ -33,6 +33,7 @@ body {
     background-color: $color-grey-light;
     background-size: cover;
     height: 100vh;
+    margin: auto auto;
 }
 
 .section-heading {
@@ -54,6 +55,10 @@ body {
     text-align: center;
 }
 
+.u-margin-bottom-medium {
+    margin-bottom: 4rem;
+}
+
 .row {
     max-width: $grid-width;
     margin: 0 auto;
@@ -66,6 +71,7 @@ body {
         background-color: orangered;
         float: left;
         color: #fff;
+        padding: 1rem 0;
 
         &:not(:last-child) {
              margin-right: $gutter-horizontal;

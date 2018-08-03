@@ -20,14 +20,15 @@ body {
 .section-about {
   background-color: #f7f7f7;
   background-size: cover;
-  height: 100vh; }
+  height: 100vh;
+  margin: auto auto; }
 
 .section-heading {
   font-size: 3.5rem;
   text-transform: uppercase;
   font-weight: 700;
   display: inline-block;
-  background-image: linear-gradient(to right, #7ed56f, #28b485);
+  background-image: linear-gradient(to right, rgba(216, 149, 124, 0.8), rgba(255, 68, 0, 0.8));
   -webkit-background-clip: text;
   color: transparent;
   transition: all .2s; }
@@ -37,6 +38,9 @@ body {
 .u-center-text {
   text-align: center; }
 
+.u-margin-bottom-medium {
+  margin-bottom: 4rem; }
+
 .row {
   max-width: 114rem;
   margin: 0 auto; }
@@ -45,7 +49,8 @@ body {
   .row [class^="col-"] {
     background-color: orangered;
     float: left;
-    color: #fff; }
+    color: #fff;
+    padding: 1rem 0; }
     .row [class^="col-"]:not(:last-child) {
       margin-right: 6rem; }
   .row .col-1-of-2 {
