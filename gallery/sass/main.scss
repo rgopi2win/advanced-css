@@ -1,0 +1,110 @@
+$color-primary-light: #f1def0;
+$color-primary: #e080d7;
+$color-primary-dark: #bb5ab1;
+
+$color-grey-dark: #777;
+$color-grey-light: #f7f7f7;
+
+$color-black: #000;
+$color-white: #fff;
+
+$grid-width: 130rem;
+$gutter-horizontal: 6rem;
+$gutter-vertical: 8rem;
+
+
+*,
+*::after,
+*::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+
+html {
+    font-size:62.5%; /*equivalent to font-size:10px, since default is 16px*/
+}
+
+body {
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+    line-height: 1.7;
+    color: $color-grey-dark;
+    padding: 5rem;
+    box-sizing: border-box;
+}
+
+.section-gallery {
+    padding: 25rem 0;
+    background-image: linear-gradient(to right bottom,
+             rgba($color-primary-light, 0.8),
+             rgba($color-primary-dark, 0.8)),
+        url(../img/gallery-background-image.jpg);
+    background-size: cover;
+
+    transform: skewY(-3deg);
+
+    & > * {
+        transform: skewY(3deg);
+    }
+}
+
+
+.row {
+    max-width: $grid-width;
+    margin: 0 auto;
+
+    &:not(:last-child) {
+        margin-bottom: $gutter-vertical;
+    }
+    
+    [class^="col-"] {
+        float: left;
+
+        &:not(:last-child) {
+             margin-right: $gutter-horizontal;
+        }
+    }
+
+    .col-1-of-4 {
+        width: calc((100% - 3 * #{$gutter-horizontal}) / 4);
+    }
+
+    &::after {
+        content: "";
+        display: table;
+        clear: both;
+    }    
+}
+
+.gallery-box {
+    background-color: rgba($color-white, 0.8);
+    font-size: 1.8rem;
+    padding: 2.5rem;
+    text-align: center;
+    border-radius: 3px;
+    box-shadow: 0 1.5rem 4rem rgba($color-black, .5);
+    transition: transform .2s;
+
+    &:hover {
+        transform: translateY(-1.5rem) scale(1.03);
+    }
+
+    &__icon {
+        font-size: 6rem;
+        margin-bottom: .5rem;
+        display: inline-block;
+        background-image: linear-gradient(to right bottom,
+             rgba($color-primary-light, 0.8),
+             rgba($color-primary-dark, 0.8));
+        -webkit-background-clip: text;
+        color: transparent;
+    }
+
+    &__heading {
+        font-size: 2rem;
+        font-weight: 700;
+        text-transform: uppercase;
+        margin-bottom: 2rem;
+    }
+}
