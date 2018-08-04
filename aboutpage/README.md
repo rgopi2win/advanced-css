@@ -1,5 +1,7 @@
 ## About Page
 
+![](https://github.com/rgopi2win/advanced-css/blob/master/aboutpage/img/screenshot-animated.png)
+
 ### npm init
 
 ### SASS Package
