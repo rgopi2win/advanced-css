@@ -1,5 +1,6 @@
 ## Gallery
 
+![Gallery Screenshot](advanced-css/gallery/img/gallery.PNG)
 ### npm init
 
 ### SASS Package
