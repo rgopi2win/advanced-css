@@ -1,0 +1,14 @@
+{
+  "name": "RotatingCards",
+  "version": "1.0.1",
+  "description": "Create a rotating cards and popup using css only",
+  "main": "index.js",
+  "scripts": {
+    "compile:sass": "node-sass sass/main.scss css/main.css -w"
+  },
+  "author": "Gopinath Rajendiran",
+  "license": "ISC",
+  "devDependencies": {
+    "node-sass": "^4.9.2"
+  }
+}
