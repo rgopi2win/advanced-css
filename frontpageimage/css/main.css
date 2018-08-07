@@ -22,27 +22,48 @@ body {
   display: none; }
 
 .navigation__button {
-  height: 7rem;
-  width: 7rem;
+  height: 6rem;
+  width: 6rem;
   border-radius: 50%;
   background-color: wheat;
+  text-align: center;
   position: fixed;
   top: 6rem;
   right: 6rem;
-  z-index: 2000; }
+  z-index: 2000;
+  cursor: pointer; }
 
 .navigation__icon {
-  position: relative; }
+  position: relative;
+  margin-top: 3rem; }
   .navigation__icon, .navigation__icon::before, .navigation__icon::after {
     width: 3rem;
-    height: 2px;
+    height: 3px;
     background-color: #333;
     display: inline-block; }
   .navigation__icon::before, .navigation__icon::after {
     content: "";
     position: absolute;
-    left: 0; }
+    left: 0;
+    transition: all .2s; }
   .navigation__icon::before {
     top: -0.8rem; }
   .navigation__icon::after {
     top: 0.8rem; }
+
+.navigation__button:hover .navigation__icon::before {
+  top: -.95rem; }
+
+.navigation__button:hover .navigation__icon::after {
+  top: .95rem; }
+
+.navigation__checkbox:checked + .navigation__button .navigation__icon {
+  background-color: transparent; }
+
+.navigation__checkbox:checked + .navigation__button .navigation__icon::before {
+  top: 0;
+  transform: rotate(45deg); }
+
+.navigation__checkbox:checked + .navigation__button .navigation__icon::after {
+  top: 0;
+  transform: rotate(-45deg); }
