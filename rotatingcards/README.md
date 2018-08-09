@@ -1,6 +1,6 @@
 ## Rotating Cards
 
-![](https://github.com/rgopi2win/advanced-css/blob/master/rotatingcards/img/screenshot.PNG)
+![(https://github.com/rgopi2win/advanced-css/blob/master/rotatingcards/img/page-view.gif)](https://github.com/rgopi2win/advanced-css/blob/master/rotatingcards/img/page-view.gif)
 
 ### npm init
 
