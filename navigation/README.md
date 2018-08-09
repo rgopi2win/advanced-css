@@ -1,4 +1,4 @@
-## Front Page Image Decorator
+## Navigation
 
 ![(https://media.giphy.com/media/28lshrluNGuf6a2DuW/giphy.gif)](https://media.giphy.com/media/28lshrluNGuf6a2DuW/giphy.gif)
 
