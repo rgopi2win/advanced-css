@@ -1,6 +1,6 @@
 ## Front Page Image Decorator
 
-![](https://github.com/rgopi2win/advanced-css/blob/master/frontpageimage/img/screenshot.PNG)
+![(https://media.giphy.com/media/28lshrluNGuf6a2DuW/200w_d.gif)](https://media.giphy.com/media/28lshrluNGuf6a2DuW/200w_d.gif)
 
 ### Custom animation timing function
 
