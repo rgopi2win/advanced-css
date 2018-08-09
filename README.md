@@ -4,26 +4,33 @@ The project develops for understanding the CSS features to develop the rich Web 
 
 ### Project Highlights
 
-1. SASS compilation using NPM
-2. CSS features Highlights
+
+1. CSS features Highlights
+2. SASS compilation using NPM
+3. CSS Tricks
 
 ### CSS features 
 
-### Animation properties
+#### Animation properties
 
-**1. transition
-      transition duration
-      transition timing function
+** 1. transition
+            a.  transition duration
+            b.  transition timing function
       
-**2. transform
-      translate
-      skew
-      rotate 
+** 2. transform
+            a.  translate
+            b.  skew
+            c.  rotate 
 
-### Background properties
+#### Background properties
 
-**1.  background-image
-      a. linear gradient
-      b. radial gradient
+** 1.  background-image
+            a. linear gradient
+            b. radial gradient
       
-**2.  background- size
+** 2.  background- size
+
+### SASS Using NPM
+
+### CSS Tricks
+      
