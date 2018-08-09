@@ -80,7 +80,7 @@ body {
   position: relative; }
   .card__side {
     height: 55rem;
-    transition: all .8s ease;
+    transition: all 2s ease;
     position: absolute;
     top: 0;
     left: 0;
