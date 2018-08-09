@@ -1,6 +1,6 @@
 ## Navigation
 
-[](https://github.com/rgopi2win/advanced-css/blob/master/navigation/img/ezgif.com-crop.gif)
+[(https://github.com/rgopi2win/advanced-css/blob/master/navigation/img/ezgif.com-crop.gif)](https://github.com/rgopi2win/advanced-css/blob/master/navigation/img/ezgif.com-crop.gif)
 
 ### Custom animation timing function
 
