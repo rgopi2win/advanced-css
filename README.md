@@ -14,18 +14,25 @@ The project develops for understanding the CSS features to develop the rich Web 
 #### Animation properties
 
 ** 1. transition
+
             a.  transition duration
+            
             b.  transition timing function
       
 ** 2. transform
+
             a.  translate
+            
             b.  skew
+            
             c.  rotate 
 
 #### Background properties
 
 ** 1.  background-image
+
             a. linear gradient
+            
             b. radial gradient
       
 ** 2.  background- size
