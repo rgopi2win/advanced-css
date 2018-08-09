@@ -1,6 +1,6 @@
 ## Front Page Image Decorator
 
-![(https://media.giphy.com/media/28lshrluNGuf6a2DuW/200w_d.gif)](https://media.giphy.com/media/28lshrluNGuf6a2DuW/200w_d.gif)
+![(https://media.giphy.com/media/28lshrluNGuf6a2DuW/giphy.mp4)](https://media.giphy.com/media/28lshrluNGuf6a2DuW/giphy.mp4)
 
 ### Custom animation timing function
 
