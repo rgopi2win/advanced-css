@@ -8,6 +8,8 @@ The project develops for understanding the CSS features to develop the rich Web 
 1. CSS features Highlights
 2. SASS compilation using NPM
 3. CSS Tricks
+4. Checkbox override
+5. Radion button override
 
 ### CSS features 
 
@@ -39,5 +41,13 @@ The project develops for understanding the CSS features to develop the rich Web 
 
 ### SASS Using NPM
 
+TODO
+
 ### CSS Tricks
+
+TODO
+
+### Checkbox override
+
+### Radio buttion override
       
