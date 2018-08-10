@@ -1,9 +1,9 @@
 # CSS Features
 
-The project develops for understanding the CSS features to develop the rich Web UI.
-
+The project is developed for understanding the CSS features to develop the rich Web UI.
+ 
+- 
 ### Project Highlights
-
 
 1. CSS features Highlights
 2. SASS compilation using NPM
@@ -15,10 +15,9 @@ The project develops for understanding the CSS features to develop the rich Web 
 
 #### Animation properties
 
-** 1. transition
+**1. transition**
 
             a.  transition duration
-            
             b.  transition timing function
       
 ** 2. transform
