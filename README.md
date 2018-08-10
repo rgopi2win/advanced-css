@@ -3,10 +3,10 @@
 The project is developed for understanding the CSS features to develop the rich Web UI.
  
 - The following pages has been developed as part of this project.
-    + [About Page] (https://github.com/rgopi2win/advanced-css/tree/master/aboutpage)
-    + [Navigation] (https://github.com/rgopi2win/advanced-css/tree/master/navigation)
-    + [Rotating Cards] (https://github.com/rgopi2win/advanced-css/tree/master/rotatingcards)
-    + [Gallery] (https://github.com/rgopi2win/advanced-css/tree/master/gallery)
+    + [About Page](https://github.com/rgopi2win/advanced-css/tree/master/aboutpage)
+    + [Navigation](https://github.com/rgopi2win/advanced-css/tree/master/navigation)
+    + [Rotating Cards](https://github.com/rgopi2win/advanced-css/tree/master/rotatingcards)
+    + [Gallery](https://github.com/rgopi2win/advanced-css/tree/master/gallery)
 
 ### Project Highlights
 
