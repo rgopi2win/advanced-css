@@ -1,6 +1,6 @@
 ## Gallery
 
-![Gallery Screenshot](https://github.com/rgopi2win/advanced-css/blob/master/gallery/img/gallery.PNG)
+![Gallery Screenshot(https://github.com/rgopi2win/advanced-css/blob/master/gallery/img/page-view.gif)](https://github.com/rgopi2win/advanced-css/blob/master/gallery/img/page-view.gif)
 ### npm init
 
 ### SASS Package
