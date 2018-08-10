@@ -1,6 +1,6 @@
 ## About Page
 
-![](https://github.com/rgopi2win/advanced-css/blob/master/aboutpage/img/screenshot-animated.png)
+![(https://github.com/rgopi2win/advanced-css/blob/master/aboutpage/img/page-view.gif)](https://github.com/rgopi2win/advanced-css/blob/master/aboutpage/img/page-view.gif)
 
 ### npm init
 
