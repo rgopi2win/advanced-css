@@ -29,7 +29,48 @@
 
         <div class="popup" id="popup"> 
             <div class="popup__content">
-                <a href="/" class="popup__close">&times;</a>
+                <a href="#" class="popup__close">&times;</a>
+
+                <div class="popup__form">
+                    <form action="#" class="form">
+                        <div class="u-margin-bottom-medium">
+                            <h2 class="section-heading">
+                                Login to order now!
+                            </h2>
+                        </div>
+
+                        <div class="form__group">
+                            <input type="text" class="form__input" placeholder="User Name" id="name" required>
+                            <label for="name" class="form__label">User Name</label>
+                        </div>
+
+                        <div class="form__group">
+                            <input type="email" class="form__input" placeholder="Email" id="email" required>
+                            <label for="email" class="form__label">Email</label>
+                        </div>
+
+                        <div class="form__radio-group u-margin-bottom-large">
+                            <input type="radio" class="form__radio-input" id="compact" name="pack">
+                            <label for="compact" class="form__radio-label">
+                                <span class="form__radio-button"></span>
+                                Compact package
+                            </label>
+                        </div>
+
+                        <div class="form__radio-group">
+                            <input type="radio" class="form__radio-input" id="family" name="pack">
+                            <label for="family" class="form__radio-label">
+                                <span class="form__radio-button"></span>
+                                Family package
+                            </label>
+                        </div>
+
+                        <div class="form__group">
+                            <button class="btn btn--color">Proceed &rarr;</button>   
+                        </div>
+                    </form>
+
+                </div>
             </div>
         </div>
         

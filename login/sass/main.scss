@@ -1,6 +1,9 @@
 $color-black: #000;
-$color-primary: rgb(98, 115, 212);
-$color-grey-dark: #777;
+$color-white: #fff;
+$color-primary: #497cb1;
+$color-primary-light:#a3e2f1;
+$color-primary-dark: #1e5adb;
+$color-grey-dark: #525050;
 
 *,
 *::after,
@@ -26,8 +29,10 @@ body {
 
 .header {
     height: 95vh;
-    background-image: linear-gradient(to right bottom, rgba(127, 192, 209, 0.8),
-     rgba(85, 100, 185, 0.8)),url(../img/icecreams.jpg);
+    background-image: linear-gradient(to right bottom,
+        rgba($color-primary-light, 0.8),
+        rgba($color-primary-dark, 0.8)),
+     url(../img/icecreams.jpg);
     background-size: cover;
     background-position: top;
     position: relative;
@@ -85,26 +90,39 @@ body {
     }
 }
 
-.btn:link,
-.btn:visited {
-    text-transform: uppercase;
-    text-decoration: none;
-    padding: 1.5rem 4rem;
-    display: inline-block;
-    border-radius: 10rem;
-    transition: all .2s;
-    position: relative;
-    font-size: 1.6rem;
+.btn {
+    &,
+    &:link,
+    &:visited{
+        text-transform: uppercase;
+        text-decoration: none;
+        padding: 1.5rem 4rem;
+        display: inline-block;
+        border-radius: 10rem;
+        transition: all .2s;
+        position: relative;
+        font-size: 1.6rem;
+
+        //styling for <button> element
+        border: none;
+        cursor: pointer;
+    }
+    
+    &--color{
+        background-color: $color-primary;
+        color: $color-white;
+    }
 }
 
 .btn:hover {
     transform: translateY(-.3rem);
-    box-shadow: 0 1rem 2rem rgba(0,0,0,.4);
+    box-shadow: 0 1rem 2rem rgba($color-black,.4);
 }
 
 .btn:active {
+    outline: none;
     transform: translateY(-.1rem);
-    box-shadow: 0 .5rem 1rem rgba(0,0,0,.4);
+    box-shadow: 0 .5rem 1rem rgba($color-black,.4);
 }
 
 .btn-white {
@@ -139,6 +157,27 @@ body {
     animation-fill-mode: backwards;
 }
 
+.section-heading {
+    font-size: 4.5rem;
+    text-transform: uppercase;
+    font-weight: 700;
+    display: inline-block;
+    background-image: linear-gradient(to right, $color-primary, $color-primary-dark);
+    -webkit-background-clip: text;
+    color: transparent;
+    letter-spacing: .2rem;
+    transition: all .2s;
+
+    &:hover {
+        transform: skewX(2deg) skewY(2deg) scale(1.1);
+        text-shadow: .5rem 1rem 2rem rgba($color-black, .2);
+    }
+}
+
+
+.u-margin-bottom-medium { margin-bottom: 4rem !important; }
+.u-margin-bottom-large { margin-bottom: 8rem !important; }
+
 .popup {
     height: 100vh;
     width: 100%;
@@ -157,9 +196,14 @@ body {
     }
     
     &__content {
-        width: 70%;
+        width: 75%;
         height: 70rem;
-        background-image: url(../img/popup-image.jpg);
+        background-image: linear-gradient(105deg,
+                            rgba($color-primary-light, 0.8) 0%,
+                            rgba($color-primary-light, 0.8) 50%,
+                            transparent 50%
+                            ),
+         url(../img/popup-image.jpg);
         background-size: cover;
         border-radius: 3px;
         box-shadow: 0 2rem 4rem rgba($color-black, .2);
@@ -196,4 +240,104 @@ body {
            color: $color-primary;
        }
     }
+
+    &__form {
+        width: 50%;
+        padding: 6rem;
+    }
 }
+
+.form {
+    &__group:not(:last-child) {
+        margin-bottom: 2rem;
+    }
+
+    &__input {
+        font-size: 2.5rem;
+        font-family: inherit;
+        padding: 1.5rem 2rem;
+        border-radius: 2px;
+        background-color: rgba($color-white, 0.8);
+        border: none;
+        border-bottom: 4px solid transparent;
+        width: 90%;
+        display: block;
+        transition: all .3s;
+
+        &:focus {
+            outline: none;
+            border-bottom: 4px solid $color-primary;
+            box-shadow: 0 1rem 2rem rgba($color-black, .2);
+
+            &:invalid {
+                border-bottom: 4px solid #ff7730;
+            }
+        }
+
+        &::-webkit-input-placeholder {
+            color: #777;
+        }
+    }
+
+    &__label {
+        display: block;
+        margin-left: 2rem;
+        margin-top: 1rem;
+        font-size: 1.6rem;
+        font-weight: 700;
+        transition: all .3s;
+    }
+
+    &__input:placeholder-shown + &__label {
+        opacity: 0;
+        visibility: hidden;
+        transform: translateY(-5rem);
+    }
+
+    &__radio-group {
+        width: 49%;
+        display: inline-block;
+    }
+
+    &__radio-input {
+        display: none;
+    }
+
+    &__radio-label {
+        font-size: 2.5rem;
+        cursor: pointer;
+        position: relative;
+        padding-left: 4.5rem;
+    }
+
+    &__radio-button {
+        height: 3rem;
+        width: 3rem;
+        border: 5px solid $color-primary;
+        border-radius: 50%;
+        display: inline-block;
+        position: absolute;
+        top: 0;
+        left: 0;
+
+        &::after {
+            content: "";
+            display: block;
+            height: 1.4rem;
+            width: 1.4rem;
+            border-radius: 50%;
+            background-color: $color-primary;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            opacity: 0;
+            transition: opacity .2s;
+        }
+    }
+
+    &__radio-input:checked ~ &__radio-label &__radio-button::after {
+        opacity: 1;
+    }
+}
+
